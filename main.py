@@ -7,7 +7,7 @@ from kivy.clock import Clock
 
 class VRApp(App):
     def build(self):
-        self.layout = BoxLayout(orientation='horizontal')
+        self.layout = BoxLayout(orientation='horizonta')
         self.image_left = Image()
         self.image_right = Image()
         self.layout.add_widget(self.image_left)
